@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REMAINING</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        .box-content
+        {
+            padding:2%;
+            height:400;
+            width:auto;
+            text-align:center;
+            background-color:honeydew;
+            border-radius: 3%;
+        }
+        *
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="vh-100 d-flex  justify-content-center align-items-center bg-danger" >
+      <div class="container box-content shadow">
+       <h3>REAL TIME CHARACTER COUNTER</h3>
+       <textarea id="text" class="text-primary form-control" placeholder="typu oh shimas" maxlength="50" autofocus></textarea>
+       <h4>Total Characters: <span id="total-counter"></span></h4>
+            <h4>Remaining Characters: <span id="remaining-counter"></span></h4>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

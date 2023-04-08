@@ -1,0 +1,11 @@
+pictures:
+
+unsplash
+freepic.com 
+
+logo:
+
+svglogomaker
+
+icons:
+iconfinder
